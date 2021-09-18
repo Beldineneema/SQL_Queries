@@ -1,0 +1,30 @@
+Write a query to obtain all the records from the above table
+Answer : where Nairobi = 88
+	4     or comm is not null
+	5     Mombasa <=65 and deptno=88
+	
+
+
+
+Write a query to obtain the names and marks of alll the students.
+
+Answer : column1 FROM  student_table
+WHERE column2 > (SELECT AVG(
+                            column2) 
+FROM student_table);
+
+
+
+
+Write quey to return all the unique towns from the table 
+Answer :  SELECT DISTINCT
+    town
+FROM
+    student table 
+ORDER BY
+    town;
+ 
+ 
+    
+Write a query to obtain all the names of the students from ruiru
+Answer : SELECT 
